@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -17,9 +17,80 @@
     <title>Proj-with-Bootstrap</title>
   </head>
   <body>
-    <i class="bi bi-hdd-network-fill"></i>
-    <i class="bi bi-palette-fill"></i>
-
+    <header>
+      <!-- nav -->
+      <nav style="background: #f2f5fc;" class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+          <a class="navbar-brand fs-3 lalezar" href="#">آموزش ریاضیات</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title fs-2 lalezar"
+                id="offcanvasNavbarLabel"
+              >
+                آموزش ریاضیات
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item px-2 dropdown">
+                  <a
+                    class="nav-link text-dart dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    دوره های آموزشی
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dart" aria-current="page" href="#"
+                    >صفحه اصلی
+                  </a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dart" href="#">تماس با ما</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

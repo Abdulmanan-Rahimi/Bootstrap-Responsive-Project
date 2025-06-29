@@ -5,6 +5,10 @@
     src: url('../fonts/Vazir.ttf');
 }
 
+.lalezar {
+    font-family: 'lalezar';
+}
+
 body {
     font-family: 'vazir' , sans-serif;
     font-size: 1rem;
