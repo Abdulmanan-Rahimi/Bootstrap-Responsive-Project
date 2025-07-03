@@ -13,3 +13,10 @@ body {
     font-family: 'vazir' , sans-serif;
     font-size: 1rem;
 }
+
+@media screen and (min-width : 768px) {
+    .position-md-fixed {
+        position: fixed;
+    }
+    
+}
