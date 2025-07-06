@@ -1,22 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 @font-face {
-    font-family: 'vazir';
-    src: url('../fonts/Vazir.ttf');
+  font-family: "vazir";
+  src: url("../fonts/Vazir.ttf");
 }
 
 .lalezar {
-    font-family: 'lalezar';
+  font-family: "lalezar";
 }
 
 body {
-    font-family: 'vazir' , sans-serif;
-    font-size: 1rem;
+  font-family: "vazir", sans-serif;
+  font-size: 1rem;
 }
 
-@media screen and (min-width : 768px) {
-    .position-md-fixed {
-        position: fixed;
-    }
-    
+@media screen and (min-width: 768px) {
+  .position-md-fixed {
+    position: fixed;
+  }
+}
+
+.course-list {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 0;
+}
+
+.course-list-item {
+    display: flex;
+    padding: 10px 15px;
+}
+
+.course-list-item:hover {
+    background: rgb(240, 240, 240);
+
 }
