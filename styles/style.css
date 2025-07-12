@@ -37,3 +37,9 @@ body {
     background: rgb(240, 240, 240);
 
 }
+
+.header {
+  background: url('../fonts/images/header-bg.png') top center no-repeat;
+  background-size: cover;
+}
+ 

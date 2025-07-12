@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,9 +17,10 @@
     <title>Proj-with-Bootstrap</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- nav -->
       <nav
+        dir="rtl"
         style="background: #f2f5fc"
         class="navbar navbar-expand-md fixed-top"
       >
@@ -124,6 +125,27 @@
           </div>
         </div>
       </nav>
+      <!-- intro section -->
+      <section class="mt-5 py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 text-justify">
+              <h3 class="lalezar fs-1">آموزش برنامه نویسی با  میلاد بهرامی</h3>
+              <p class="py-5 lalezar" style="text-align: justify;">
+                برای اینکه خوب کد نویسی را باد بگیرید اول باید درس ها را به صورت
+                درست بخوانید و سپس تمرین عملی را شروع کنید که مسلط کامل به درس
+                ها را بگیرید
+              </p>
+              <button class="btn btn-primary rounded-pill my-3 px-4 ">دوره ای آموزشی</button>
+              <button class="btn btn-outline-primary rounded-pill px-3">نظرات دانشجویان</button>
+
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <img src="./fonts/images/header-intro.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
