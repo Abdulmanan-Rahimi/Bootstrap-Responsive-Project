@@ -42,4 +42,18 @@ body {
   background: url('../fonts/images/header-bg.png') top center no-repeat;
   background-size: cover;
 }
+
+.service-box {
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;  border-bottom: 4px solid;
+  border-radius: 5px;
+  /* transition: all 0.3s; */
+
+}
+
+.service-box .read-more {
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
  
