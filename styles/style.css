@@ -82,3 +82,7 @@ body {
 .pricing-box:hover {
   transform: scale(1.05);
 }
+
+footer {
+  background: #f2f5fc;
+}
