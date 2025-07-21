@@ -75,3 +75,10 @@ body {
 .service-box:hover .read-more {
   color: white !important;
 }
+.pricing-box {
+  transition: all 0.5s;
+}
+
+.pricing-box:hover {
+  transform: scale(1.05);
+}
